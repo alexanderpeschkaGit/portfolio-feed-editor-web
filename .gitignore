@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production build
+dist/
+dist-ssr/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local storage and runtime data
+data/
+data_v2/
+backups/
+originals/
+tmp/
+
+# OS and system files
+.DS_Store
+Thumbs.db
+*.lnk
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Editor and logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
